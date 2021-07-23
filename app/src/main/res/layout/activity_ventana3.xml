@@ -7,4 +7,15 @@
     android:orientation="vertical"
     tools:context=".Ventana3">
 
+    <Button
+        android:id="@+id/botonleer"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/txtdatos"
+        android:layout_width="272dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
 </LinearLayout>
