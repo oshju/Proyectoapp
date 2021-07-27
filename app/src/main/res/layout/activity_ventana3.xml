@@ -7,15 +7,21 @@
     android:orientation="vertical"
     tools:context=".Ventana3">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        app:srcCompat="@drawable/uldreen1" />
+
     <Button
         android:id="@+id/botonleer"
-        android:layout_width="271dp"
+        android:layout_width="189dp"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="consulta guardian" />
 
     <TextView
         android:id="@+id/txtdatos"
-        android:layout_width="272dp"
+        android:layout_width="186dp"
         android:layout_height="wrap_content"
         android:text="TextView" />
 </LinearLayout>
