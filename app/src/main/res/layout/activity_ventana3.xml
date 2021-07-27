@@ -17,6 +17,7 @@
         android:id="@+id/botonleer"
         android:layout_width="189dp"
         android:layout_height="wrap_content"
+        android:onClick="leerServicio"
         android:text="consulta guardian" />
 
     <TextView
