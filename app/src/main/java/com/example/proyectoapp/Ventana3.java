@@ -45,7 +45,7 @@ public class Ventana3 extends AppCompatActivity {
 
     public void leerServicio(View view) {
         try {
-            String url = "https://webapidepartamentosxamarin.azurewebsites.net/api/Departamentos";
+            String url = "http://webapiamazon1-dev.eu-west-3.elasticbeanstalk.com/api/Empleados";
             new HttpAsyncTask().execute(url);
         } catch (Exception e) {
 // manage exceptions
