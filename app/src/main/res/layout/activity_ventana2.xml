@@ -50,11 +50,11 @@
         android:inputType="textPersonName" />
 
     <Button
-        android:id="@+id/btnRegistrar"
-        android:layout_width="178dp"
+        android:id="@+id/button2"
+        android:layout_width="177dp"
         android:layout_height="wrap_content"
-        android:onClick="mostrarFormulario"
-        android:text="Registrar" />
+        android:onClick="goVentana3"
+        android:text="Ventana3" />
 
     <ImageView
         android:id="@+id/imageView3"

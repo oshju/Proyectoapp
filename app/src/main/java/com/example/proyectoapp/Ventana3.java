@@ -37,7 +37,7 @@ public class Ventana3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_ventana3);
         this.botonleer=findViewById(R.id.botonleer);
         this.txtdatos=findViewById(R.id.txtdatos);
 
@@ -68,7 +68,7 @@ public class Ventana3 extends AppCompatActivity {
                 resultado = convertirInputToString(stream);
             }
         } catch (Exception e) {
-            txtdatos.setText(e.getMessage());
+                e.printStackTrace();
         } finally {
             try {
                 if (stream != null) {
@@ -124,9 +124,9 @@ public class Ventana3 extends AppCompatActivity {
             Departamento dept = new Departamento();
             String num, nom, loc;
             int id;
-            num = jsonarray.getJSONObject(i).optString("inombre").toString();
-            nom = jsonarray.getJSONObject(i).optString("apellido").toString();
-            loc = jsonarray.getJSONObject(i).optString("email").toString();
+            num = jsonarray.getJSONObject(i).optString("numero").toString();
+            nom = jsonarray.getJSONObject(i).optString("nombre").toString();
+            loc = jsonarray.getJSONObject(i).optString("localidad").toString();
             id = jsonarray.getJSONObject(i).optInt("id");
             dept.setInombre(num);
             dept.setApellido(nom);

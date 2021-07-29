@@ -42,9 +42,9 @@ public class Departamento {
     @Override
     public String toString() {
         return "Departamento{" +
-                "inombre='" + inombre + '\'' +
-                ", apellido='" + apellido + '\'' +
-                ", email='" + email + '\'' +
+                "inombre=" + inombre +
+                ", apellido=" + apellido +
+                ", email=" + email +
                 ", id=" + id +
                 '}';
     }
