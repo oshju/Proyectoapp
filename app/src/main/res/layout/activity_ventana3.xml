@@ -25,4 +25,11 @@
         android:layout_width="186dp"
         android:layout_height="wrap_content"
         android:text="TextView" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarVentana"
+        android:text="armas" />
 </LinearLayout>

@@ -2,6 +2,7 @@ package com.example.proyectoapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
@@ -137,5 +138,9 @@ public class Ventana3 extends AppCompatActivity {
         return lista;
     }
 
+    public void mostrarVentana(View v){
+        Intent i=new Intent(this,Ventana5.class);
+        startActivity(i);
+    }
 
 }
